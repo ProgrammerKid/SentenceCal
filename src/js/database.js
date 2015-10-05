@@ -1,4 +1,10 @@
 var database = {
+    clear: function() {
+        database.push({
+            events: {}
+        });
+    },
+
     clone: function() {
         var database = localStorage.getItem("sentencecal");
 
