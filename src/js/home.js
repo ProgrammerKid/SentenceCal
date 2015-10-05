@@ -28,5 +28,9 @@ var home = {
         storage.events[sentence.event_name] = sentence;
 
         database.push(storage);
+    },
+
+    showEvents: function() {
+        window.location = "showEvents.html";
     }
 };
