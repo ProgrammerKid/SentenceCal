@@ -1,0 +1,23 @@
+select {
+    border: none;
+
+    /* REMOVE DROPDOWN ARROWS */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+select, input {
+    font-size: 30px;
+    text-align: center;
+}
+
+input {
+    border-bottom: 1px solid #23CF5F;
+}
+
+div.sentence {
+    text-align: center;
+    font-size: 30px;
+}
