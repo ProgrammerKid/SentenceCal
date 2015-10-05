@@ -20,6 +20,40 @@ html, body {
     box-sizing: border-box;
 }
 
+select {
+    border: none;
+
+    /* REMOVE DROPDOWN ARROWS */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+select, input, button {
+    font-size: 30px;
+    text-align: center;
+}
+
+input {
+    border-bottom: 1px solid #23CF5F;
+}
+
+button {
+    border: 1px solid #23CF5F;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 1s color;
+    transition: 1s background;
+    transition: 1s border-radius;
+}
+
+button:hover {
+    background: #23CF5F;
+    color: rgb(40, 40, 40);
+    border-radius: 100px;
+}
+
 .container {
     background: rgb(40, 40, 40);
     color: rgb(215, 215, 215);
